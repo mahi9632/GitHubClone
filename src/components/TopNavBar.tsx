@@ -38,7 +38,7 @@ const TopNavBar: React.FC = () => {
   const handleFeatureClick = (feature: keyof typeof featureLabels) => {
     const name = featureLabels[feature];
     const description = descriptions[name] || descriptions.Menu || '';
-    toast.info(`${name} - Demo Mode`, { autoClose: 2000 });
+    toast.info(`${name} \n ${description}`, { autoClose: 2000, theme: 'dark', position: 'top-center' });
   };
 
 

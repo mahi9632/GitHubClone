@@ -7,6 +7,7 @@ import ComapnyIcon from "../icons/ComapnyIcon";
 import LocationIcon from "../icons/LocationIcon";
 import TwitterIcon from "../icons/TwitterIcon";
 import BlogIcon from "../icons/BlogIcon";
+import StartPerFormerIcon from "../icons/StartPerFormerIcon";
 
 const SideProfile: React.FC = () => {
   const { user } = useUserProfile();
@@ -15,7 +16,7 @@ const SideProfile: React.FC = () => {
 
   return (
     <div className="w-full lg:w-[296px] flex-shrink-0">
-      <div className="sticky top-4">
+      <div className="sticky top-4" >
         <div className="relative mb-4">
           <img
             src={user.avatar_url}
@@ -116,9 +117,14 @@ const SideProfile: React.FC = () => {
             </div>
           )}
         </div>
+              <div className="w-full mt-1 h-[1px] bg-[#d1d9e0] "></div>
+      <div className="pt-4 text-sm ">
+        <h2 className="font-semibold">Achievemenst</h2>
+        <StartPerFormerIcon />
+      </div>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default SideProfile;

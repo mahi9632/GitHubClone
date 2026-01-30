@@ -2,6 +2,7 @@ import React from "react";
 import { GoLock } from "react-icons/go";
 
 import profileConfig from "../config/profileConfig.json";
+import GitMergeIcon from "../icons/GitMergeIcon";
 
 const ContributionActivity: React.FC = () => {
   const currentMonth = new Date().toLocaleString("default", {
@@ -30,8 +31,8 @@ const ContributionActivity: React.FC = () => {
 
           <div className="relative pb-6 flex flex-row gap-2 items-center">
             <div className="h-[50px] w-[2px]  bg-[#d1d9e0]  "></div>
-            <div className="absolute translate-x-[-45%] translate-y-[20%] top-[2px] bg-[#212830] p-2 z-10 rounded-full">
-              <GoLock className="w-[14px] h-[14px] text-white rounded-full " />
+            <div className="absolute translate-x-[-45%] translate-y-[20%] top-[2px] bg-[#f6f8fa] p-1 z-10 rounded-full">
+              <GitMergeIcon/>
             </div>
 
             <div className="flex items-start justify-between pl-4 w-full">

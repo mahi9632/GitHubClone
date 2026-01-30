@@ -121,7 +121,7 @@ const ContributionChart: React.FC<ContributionChartProps> = ({ selectedYear: pro
 
   return (
     <div >
-      <div className="font-semibold text-base mb-4">
+      <div className="font-semibold text-[#56595d] text-base mb-4">
         {totalContributions.toLocaleString()} contributions in {selectedYear}
       </div>
 
