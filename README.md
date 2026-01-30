@@ -8,7 +8,6 @@ A modern React application built with Vite and TypeScript, featuring the latest 
 - **TypeScript 5.7.2** - Full TypeScript support throughout
 - **Vite 5.4.21** - Fast build tool and dev server with HMR
 - **React Router DOM 6.30.3** - Routing library
-- **Zustand 4.5.7** - Lightweight state management
 - **Axios 1.13.4** - Promise-based HTTP client
 - **ESLint 8.57.1** - Code quality with TypeScript support
 - **Hot Module Replacement (HMR)** - Instant updates during development
@@ -83,7 +82,6 @@ npm run lint
 | Vite | 5.4.21 | Build tool & dev server |
 | TypeScript | 5.7.2 | Type-safe JavaScript |
 | React Router DOM | 6.30.3 | Client-side routing |
-| Zustand | 4.5.7 | State management |
 | Axios | 1.13.4 | HTTP client |
 | ESLint | 8.57.1 | Code quality |
 | @typescript-eslint | 7.13.0 | TypeScript ESLint support |
@@ -105,6 +103,3 @@ This project is fully configured with TypeScript:
 - `npm run type-check` - Run TypeScript type checking
 - `npm run lint` - Run ESLint and report issues
 
-## License
-
-MIT
